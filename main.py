@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, F  #Dispatceh - managing(handling and prior
 from aiogram.filters import Command     #Command - filtrating '/'-commands
 from aiogram.types import Message
 
-import os  #support for dotenv lib
+import os  #support for dotenv lib and for save_inf func
 from dotenv import load_dotenv, find_dotenv  #for virtual enviroment secret tokenholder-file
 
 load_dotenv(find_dotenv()) #подгружает данные из .env в программу (через поиск по корневому каталогу)
